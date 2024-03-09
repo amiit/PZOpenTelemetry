@@ -18,11 +18,11 @@
 		621B768F2B9C3E4B0030C073 /* OpenTelemetryProtocolExporterHTTP in Frameworks */ = {isa = PBXBuildFile; productRef = 621B768E2B9C3E4B0030C073 /* OpenTelemetryProtocolExporterHTTP */; };
 		621B76912B9C3E4B0030C073 /* OpenTelemetrySdk in Frameworks */ = {isa = PBXBuildFile; productRef = 621B76902B9C3E4B0030C073 /* OpenTelemetrySdk */; };
 		621B76932B9C3E4B0030C073 /* URLSessionInstrumentation in Frameworks */ = {isa = PBXBuildFile; productRef = 621B76922B9C3E4B0030C073 /* URLSessionInstrumentation */; };
+		627D6E962B9C93340010D891 /* PZOpenTelemetry.h in Headers */ = {isa = PBXBuildFile; fileRef = 627D6E942B9C93340010D891 /* PZOpenTelemetry.h */; };
+		627D6E972B9C93340010D891 /* PZNetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D6E952B9C93340010D891 /* PZNetworkLogger.swift */; };
 		62CF0B792B9C273600A357F9 /* PZOpenTelemetry.docc in Sources */ = {isa = PBXBuildFile; fileRef = 62CF0B782B9C273600A357F9 /* PZOpenTelemetry.docc */; };
 		62CF0B7F2B9C273600A357F9 /* PZOpenTelemetry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CF0B742B9C273600A357F9 /* PZOpenTelemetry.framework */; };
 		62CF0B842B9C273600A357F9 /* PZOpenTelemetryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CF0B832B9C273600A357F9 /* PZOpenTelemetryTests.swift */; };
-		62CF0B852B9C273600A357F9 /* PZOpenTelemetry.h in Headers */ = {isa = PBXBuildFile; fileRef = 62CF0B772B9C273600A357F9 /* PZOpenTelemetry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62CF0B8F2B9C287800A357F9 /* PZNetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CF0B8E2B9C287800A357F9 /* PZNetworkLogger.swift */; };
 		AD349F17C6A886AF26CFB462 /* Pods_PZOpenTelemetry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B80BBE65921F31C3AC1A51 /* Pods_PZOpenTelemetry.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,12 +39,12 @@
 /* Begin PBXFileReference section */
 		136903B35B0BABDD2113D37F /* Pods_PZOpenTelemetry_PZOpenTelemetryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PZOpenTelemetry_PZOpenTelemetryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B80BBE65921F31C3AC1A51 /* Pods_PZOpenTelemetry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PZOpenTelemetry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		627D6E942B9C93340010D891 /* PZOpenTelemetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZOpenTelemetry.h; path = Classes/PZOpenTelemetry.h; sourceTree = "<group>"; };
+		627D6E952B9C93340010D891 /* PZNetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PZNetworkLogger.swift; path = Classes/PZNetworkLogger.swift; sourceTree = "<group>"; };
 		62CF0B742B9C273600A357F9 /* PZOpenTelemetry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PZOpenTelemetry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		62CF0B772B9C273600A357F9 /* PZOpenTelemetry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZOpenTelemetry.h; sourceTree = "<group>"; };
 		62CF0B782B9C273600A357F9 /* PZOpenTelemetry.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = PZOpenTelemetry.docc; sourceTree = "<group>"; };
 		62CF0B7E2B9C273600A357F9 /* PZOpenTelemetryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PZOpenTelemetryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62CF0B832B9C273600A357F9 /* PZOpenTelemetryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PZOpenTelemetryTests.swift; sourceTree = "<group>"; };
-		62CF0B8E2B9C287800A357F9 /* PZNetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PZNetworkLogger.swift; sourceTree = "<group>"; };
 		B4F7161B52E19CE17E40A515 /* Pods-PZOpenTelemetry-PZOpenTelemetryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZOpenTelemetry-PZOpenTelemetryTests.debug.xcconfig"; path = "Target Support Files/Pods-PZOpenTelemetry-PZOpenTelemetryTests/Pods-PZOpenTelemetry-PZOpenTelemetryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D51344E73865E4E446A93496 /* Pods-PZOpenTelemetry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZOpenTelemetry.release.xcconfig"; path = "Target Support Files/Pods-PZOpenTelemetry/Pods-PZOpenTelemetry.release.xcconfig"; sourceTree = "<group>"; };
 		DF6BC3B63DC7EA23F0EAFBFE /* Pods-PZOpenTelemetry-PZOpenTelemetryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZOpenTelemetry-PZOpenTelemetryTests.release.xcconfig"; path = "Target Support Files/Pods-PZOpenTelemetry-PZOpenTelemetryTests/Pods-PZOpenTelemetry-PZOpenTelemetryTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,9 +105,9 @@
 		62CF0B762B9C273600A357F9 /* PZOpenTelemetry */ = {
 			isa = PBXGroup;
 			children = (
-				62CF0B772B9C273600A357F9 /* PZOpenTelemetry.h */,
+				627D6E952B9C93340010D891 /* PZNetworkLogger.swift */,
+				627D6E942B9C93340010D891 /* PZOpenTelemetry.h */,
 				62CF0B782B9C273600A357F9 /* PZOpenTelemetry.docc */,
-				62CF0B8E2B9C287800A357F9 /* PZNetworkLogger.swift */,
 			);
 			path = PZOpenTelemetry;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62CF0B852B9C273600A357F9 /* PZOpenTelemetry.h in Headers */,
+				627D6E962B9C93340010D891 /* PZOpenTelemetry.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62CF0B8F2B9C287800A357F9 /* PZNetworkLogger.swift in Sources */,
+				627D6E972B9C93340010D891 /* PZNetworkLogger.swift in Sources */,
 				62CF0B792B9C273600A357F9 /* PZOpenTelemetry.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -24,6 +24,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '13.4'
 
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files = 'PZOpenTelemetry/Classes/**/*'
 
 end
