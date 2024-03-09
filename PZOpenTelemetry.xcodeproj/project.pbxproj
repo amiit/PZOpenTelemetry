@@ -7,10 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BE62A7934E851499F998852 /* Pods_PZOpenTelemetry_PZOpenTelemetryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136903B35B0BABDD2113D37F /* Pods_PZOpenTelemetry_PZOpenTelemetryTests.framework */; };
+		621B76802B9C3DFE0030C073 /* NIO in Frameworks */ = {isa = PBXBuildFile; productRef = 621B767F2B9C3DFE0030C073 /* NIO */; };
+		621B76822B9C3DFE0030C073 /* NIOConcurrencyHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = 621B76812B9C3DFE0030C073 /* NIOConcurrencyHelpers */; };
+		621B76842B9C3DFE0030C073 /* NIOCore in Frameworks */ = {isa = PBXBuildFile; productRef = 621B76832B9C3DFE0030C073 /* NIOCore */; };
+		621B76862B9C3DFE0030C073 /* NIOEmbedded in Frameworks */ = {isa = PBXBuildFile; productRef = 621B76852B9C3DFE0030C073 /* NIOEmbedded */; };
+		621B76882B9C3DFE0030C073 /* NIOFoundationCompat in Frameworks */ = {isa = PBXBuildFile; productRef = 621B76872B9C3DFE0030C073 /* NIOFoundationCompat */; };
+		621B768B2B9C3E4B0030C073 /* OpenTelemetryApi in Frameworks */ = {isa = PBXBuildFile; productRef = 621B768A2B9C3E4B0030C073 /* OpenTelemetryApi */; };
+		621B768D2B9C3E4B0030C073 /* OpenTelemetryProtocolExporter in Frameworks */ = {isa = PBXBuildFile; productRef = 621B768C2B9C3E4B0030C073 /* OpenTelemetryProtocolExporter */; };
+		621B768F2B9C3E4B0030C073 /* OpenTelemetryProtocolExporterHTTP in Frameworks */ = {isa = PBXBuildFile; productRef = 621B768E2B9C3E4B0030C073 /* OpenTelemetryProtocolExporterHTTP */; };
+		621B76912B9C3E4B0030C073 /* OpenTelemetrySdk in Frameworks */ = {isa = PBXBuildFile; productRef = 621B76902B9C3E4B0030C073 /* OpenTelemetrySdk */; };
+		621B76932B9C3E4B0030C073 /* URLSessionInstrumentation in Frameworks */ = {isa = PBXBuildFile; productRef = 621B76922B9C3E4B0030C073 /* URLSessionInstrumentation */; };
 		62CF0B792B9C273600A357F9 /* PZOpenTelemetry.docc in Sources */ = {isa = PBXBuildFile; fileRef = 62CF0B782B9C273600A357F9 /* PZOpenTelemetry.docc */; };
 		62CF0B7F2B9C273600A357F9 /* PZOpenTelemetry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CF0B742B9C273600A357F9 /* PZOpenTelemetry.framework */; };
 		62CF0B842B9C273600A357F9 /* PZOpenTelemetryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CF0B832B9C273600A357F9 /* PZOpenTelemetryTests.swift */; };
 		62CF0B852B9C273600A357F9 /* PZOpenTelemetry.h in Headers */ = {isa = PBXBuildFile; fileRef = 62CF0B772B9C273600A357F9 /* PZOpenTelemetry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62CF0B8F2B9C287800A357F9 /* PZNetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CF0B8E2B9C287800A357F9 /* PZNetworkLogger.swift */; };
+		AD349F17C6A886AF26CFB462 /* Pods_PZOpenTelemetry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B80BBE65921F31C3AC1A51 /* Pods_PZOpenTelemetry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +37,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		136903B35B0BABDD2113D37F /* Pods_PZOpenTelemetry_PZOpenTelemetryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PZOpenTelemetry_PZOpenTelemetryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B80BBE65921F31C3AC1A51 /* Pods_PZOpenTelemetry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PZOpenTelemetry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62CF0B742B9C273600A357F9 /* PZOpenTelemetry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PZOpenTelemetry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62CF0B772B9C273600A357F9 /* PZOpenTelemetry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZOpenTelemetry.h; sourceTree = "<group>"; };
 		62CF0B782B9C273600A357F9 /* PZOpenTelemetry.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = PZOpenTelemetry.docc; sourceTree = "<group>"; };
 		62CF0B7E2B9C273600A357F9 /* PZOpenTelemetryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PZOpenTelemetryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62CF0B832B9C273600A357F9 /* PZOpenTelemetryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PZOpenTelemetryTests.swift; sourceTree = "<group>"; };
+		62CF0B8E2B9C287800A357F9 /* PZNetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PZNetworkLogger.swift; sourceTree = "<group>"; };
+		B4F7161B52E19CE17E40A515 /* Pods-PZOpenTelemetry-PZOpenTelemetryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZOpenTelemetry-PZOpenTelemetryTests.debug.xcconfig"; path = "Target Support Files/Pods-PZOpenTelemetry-PZOpenTelemetryTests/Pods-PZOpenTelemetry-PZOpenTelemetryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D51344E73865E4E446A93496 /* Pods-PZOpenTelemetry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZOpenTelemetry.release.xcconfig"; path = "Target Support Files/Pods-PZOpenTelemetry/Pods-PZOpenTelemetry.release.xcconfig"; sourceTree = "<group>"; };
+		DF6BC3B63DC7EA23F0EAFBFE /* Pods-PZOpenTelemetry-PZOpenTelemetryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZOpenTelemetry-PZOpenTelemetryTests.release.xcconfig"; path = "Target Support Files/Pods-PZOpenTelemetry-PZOpenTelemetryTests/Pods-PZOpenTelemetry-PZOpenTelemetryTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9983AFAC2D52C2464D55C9A /* Pods-PZOpenTelemetry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZOpenTelemetry.debug.xcconfig"; path = "Target Support Files/Pods-PZOpenTelemetry/Pods-PZOpenTelemetry.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				621B768D2B9C3E4B0030C073 /* OpenTelemetryProtocolExporter in Frameworks */,
+				621B76862B9C3DFE0030C073 /* NIOEmbedded in Frameworks */,
+				621B76802B9C3DFE0030C073 /* NIO in Frameworks */,
+				621B76912B9C3E4B0030C073 /* OpenTelemetrySdk in Frameworks */,
+				621B768F2B9C3E4B0030C073 /* OpenTelemetryProtocolExporterHTTP in Frameworks */,
+				621B76822B9C3DFE0030C073 /* NIOConcurrencyHelpers in Frameworks */,
+				621B76882B9C3DFE0030C073 /* NIOFoundationCompat in Frameworks */,
+				621B76842B9C3DFE0030C073 /* NIOCore in Frameworks */,
+				621B76932B9C3E4B0030C073 /* URLSessionInstrumentation in Frameworks */,
+				621B768B2B9C3E4B0030C073 /* OpenTelemetryApi in Frameworks */,
+				AD349F17C6A886AF26CFB462 /* Pods_PZOpenTelemetry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62CF0B7F2B9C273600A357F9 /* PZOpenTelemetry.framework in Frameworks */,
+				0BE62A7934E851499F998852 /* Pods_PZOpenTelemetry_PZOpenTelemetryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +88,8 @@
 				62CF0B762B9C273600A357F9 /* PZOpenTelemetry */,
 				62CF0B822B9C273600A357F9 /* PZOpenTelemetryTests */,
 				62CF0B752B9C273600A357F9 /* Products */,
+				89EC29BE4BA8D144708B481E /* Pods */,
+				BBB633E0CBAB4824ABD7CB25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +107,7 @@
 			children = (
 				62CF0B772B9C273600A357F9 /* PZOpenTelemetry.h */,
 				62CF0B782B9C273600A357F9 /* PZOpenTelemetry.docc */,
+				62CF0B8E2B9C287800A357F9 /* PZNetworkLogger.swift */,
 			);
 			path = PZOpenTelemetry;
 			sourceTree = "<group>";
@@ -83,6 +118,26 @@
 				62CF0B832B9C273600A357F9 /* PZOpenTelemetryTests.swift */,
 			);
 			path = PZOpenTelemetryTests;
+			sourceTree = "<group>";
+		};
+		89EC29BE4BA8D144708B481E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9983AFAC2D52C2464D55C9A /* Pods-PZOpenTelemetry.debug.xcconfig */,
+				D51344E73865E4E446A93496 /* Pods-PZOpenTelemetry.release.xcconfig */,
+				B4F7161B52E19CE17E40A515 /* Pods-PZOpenTelemetry-PZOpenTelemetryTests.debug.xcconfig */,
+				DF6BC3B63DC7EA23F0EAFBFE /* Pods-PZOpenTelemetry-PZOpenTelemetryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BBB633E0CBAB4824ABD7CB25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27B80BBE65921F31C3AC1A51 /* Pods_PZOpenTelemetry.framework */,
+				136903B35B0BABDD2113D37F /* Pods_PZOpenTelemetry_PZOpenTelemetryTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62CF0B882B9C273600A357F9 /* Build configuration list for PBXNativeTarget "PZOpenTelemetry" */;
 			buildPhases = (
+				E0BD5995E2726A5856BAB7A8 /* [CP] Check Pods Manifest.lock */,
 				62CF0B6F2B9C273600A357F9 /* Headers */,
 				62CF0B702B9C273600A357F9 /* Sources */,
 				62CF0B712B9C273600A357F9 /* Frameworks */,
@@ -113,6 +169,18 @@
 			dependencies = (
 			);
 			name = PZOpenTelemetry;
+			packageProductDependencies = (
+				621B767F2B9C3DFE0030C073 /* NIO */,
+				621B76812B9C3DFE0030C073 /* NIOConcurrencyHelpers */,
+				621B76832B9C3DFE0030C073 /* NIOCore */,
+				621B76852B9C3DFE0030C073 /* NIOEmbedded */,
+				621B76872B9C3DFE0030C073 /* NIOFoundationCompat */,
+				621B768A2B9C3E4B0030C073 /* OpenTelemetryApi */,
+				621B768C2B9C3E4B0030C073 /* OpenTelemetryProtocolExporter */,
+				621B768E2B9C3E4B0030C073 /* OpenTelemetryProtocolExporterHTTP */,
+				621B76902B9C3E4B0030C073 /* OpenTelemetrySdk */,
+				621B76922B9C3E4B0030C073 /* URLSessionInstrumentation */,
+			);
 			productName = PZOpenTelemetry;
 			productReference = 62CF0B742B9C273600A357F9 /* PZOpenTelemetry.framework */;
 			productType = "com.apple.product-type.framework";
@@ -121,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62CF0B8B2B9C273600A357F9 /* Build configuration list for PBXNativeTarget "PZOpenTelemetryTests" */;
 			buildPhases = (
+				B700F3037E00D32E4E357ECC /* [CP] Check Pods Manifest.lock */,
 				62CF0B7A2B9C273600A357F9 /* Sources */,
 				62CF0B7B2B9C273600A357F9 /* Frameworks */,
 				62CF0B7C2B9C273600A357F9 /* Resources */,
@@ -162,6 +231,10 @@
 				Base,
 			);
 			mainGroup = 62CF0B6A2B9C273600A357F9;
+			packageReferences = (
+				621B767E2B9C3DFE0030C073 /* XCRemoteSwiftPackageReference "swift-nio" */,
+				621B76892B9C3E4B0030C073 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */,
+			);
 			productRefGroup = 62CF0B752B9C273600A357F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -189,11 +262,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B700F3037E00D32E4E357ECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PZOpenTelemetry-PZOpenTelemetryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0BD5995E2726A5856BAB7A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PZOpenTelemetry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		62CF0B702B9C273600A357F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62CF0B8F2B9C287800A357F9 /* PZNetworkLogger.swift in Sources */,
 				62CF0B792B9C273600A357F9 /* PZOpenTelemetry.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,10 +391,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -328,9 +451,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -339,11 +464,13 @@
 		};
 		62CF0B892B9C273600A357F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9983AFAC2D52C2464D55C9A /* Pods-PZOpenTelemetry.debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = TR7Q49KHRL;
+				DEVELOPMENT_TEAM = 6CF3B9K5F5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -351,7 +478,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -364,24 +491,28 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "--PRODUCT-BUNDLE-IDENTIFIER-.PZOpenTelemetry";
+				OTHER_SWIFT_FLAGS = "-no-verify-emitted-module-interface";
+				PRODUCT_BUNDLE_IDENTIFIER = in.zeta.paypspsdk;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		62CF0B8A2B9C273600A357F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51344E73865E4E446A93496 /* Pods-PZOpenTelemetry.release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = TR7Q49KHRL;
+				DEVELOPMENT_TEAM = 6CF3B9K5F5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -389,7 +520,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -402,54 +533,64 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "--PRODUCT-BUNDLE-IDENTIFIER-.PZOpenTelemetry";
+				OTHER_SWIFT_FLAGS = "-no-verify-emitted-module-interface";
+				PRODUCT_BUNDLE_IDENTIFIER = in.zeta.paypspsdk;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		62CF0B8C2B9C273600A357F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F7161B52E19CE17E40A515 /* Pods-PZOpenTelemetry-PZOpenTelemetryTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TR7Q49KHRL;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.6;
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-no-verify-emitted-module-interface";
 				PRODUCT_BUNDLE_IDENTIFIER = "--PRODUCT-BUNDLE-IDENTIFIER-.PZOpenTelemetryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		62CF0B8D2B9C273600A357F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF6BC3B63DC7EA23F0EAFBFE /* Pods-PZOpenTelemetry-PZOpenTelemetryTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TR7Q49KHRL;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.6;
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-no-verify-emitted-module-interface";
 				PRODUCT_BUNDLE_IDENTIFIER = "--PRODUCT-BUNDLE-IDENTIFIER-.PZOpenTelemetryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,6 +625,78 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		621B767E2B9C3DFE0030C073 /* XCRemoteSwiftPackageReference "swift-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.61.1;
+			};
+		};
+		621B76892B9C3E4B0030C073 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/open-telemetry/opentelemetry-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 1.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		621B767F2B9C3DFE0030C073 /* NIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 621B767E2B9C3DFE0030C073 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIO;
+		};
+		621B76812B9C3DFE0030C073 /* NIOConcurrencyHelpers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 621B767E2B9C3DFE0030C073 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOConcurrencyHelpers;
+		};
+		621B76832B9C3DFE0030C073 /* NIOCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 621B767E2B9C3DFE0030C073 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOCore;
+		};
+		621B76852B9C3DFE0030C073 /* NIOEmbedded */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 621B767E2B9C3DFE0030C073 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOEmbedded;
+		};
+		621B76872B9C3DFE0030C073 /* NIOFoundationCompat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 621B767E2B9C3DFE0030C073 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOFoundationCompat;
+		};
+		621B768A2B9C3E4B0030C073 /* OpenTelemetryApi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 621B76892B9C3E4B0030C073 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = OpenTelemetryApi;
+		};
+		621B768C2B9C3E4B0030C073 /* OpenTelemetryProtocolExporter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 621B76892B9C3E4B0030C073 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = OpenTelemetryProtocolExporter;
+		};
+		621B768E2B9C3E4B0030C073 /* OpenTelemetryProtocolExporterHTTP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 621B76892B9C3E4B0030C073 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = OpenTelemetryProtocolExporterHTTP;
+		};
+		621B76902B9C3E4B0030C073 /* OpenTelemetrySdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 621B76892B9C3E4B0030C073 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = OpenTelemetrySdk;
+		};
+		621B76922B9C3E4B0030C073 /* URLSessionInstrumentation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 621B76892B9C3E4B0030C073 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = URLSessionInstrumentation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 62CF0B6B2B9C273600A357F9 /* Project object */;
 }

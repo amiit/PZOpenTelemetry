@@ -1,0 +1,6 @@
+framework module Pods_PZOpenTelemetry_PZOpenTelemetryTests {
+  umbrella header "Pods-PZOpenTelemetry-PZOpenTelemetryTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
